@@ -1,0 +1,77 @@
+:root {
+    --color1: #EEEEEE;
+    --color2: #7EE5DA;
+    --color3: #70CCC2;
+    --color4: #62B3AA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 8 auto;
+    text-align: center;
+}
+
+.search {
+    background-color: var(--color1);
+    padding: 2px;
+}
+
+p {
+    margin: 0;
+}
+
+.search>input {
+    width: 303px;
+}
+
+.center {
+    width: 90%;
+    margin: auto;
+}
+
+.left-menu {
+    background-color: var(--color2);
+    width: 37%;
+}
+
+.mid-menu {
+    background-color: var(--color3);
+    width: 20%;
+    font-size: 13px;
+}
+
+.right-menu {
+    background-color: var(--color4);
+    width: 43%;
+    font-size: 13px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu{
+    float: left;
+    /* margin: 1px;  */
+    height: 77px;
+     border: 2px solid white; 
+    
+}
+
+.block>a {
+    display: block;
+}
+
+.footer {
+    clear: left;
+    padding: 13px;
+}
+
+
+
